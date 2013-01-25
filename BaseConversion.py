@@ -21,7 +21,7 @@ def decimalToBase(num,base):
 	return newNum;
 '''
 decimalFromBase(num,base)
-#converts a number from any base to base ten. (max: base 36)
+converts a number from any base to base ten. (max: base 36)
 '''
 def decimalFromBase(num,base):
 	newNum=0
@@ -35,9 +35,8 @@ def decimalFromBase(num,base):
 	return newNum;
 '''
 convertNumberRadices(num,base1,base2
-#converts any number in any base to any other base (max: base 36)
+converts any number in any base to any other base (max: base 36)
 '''
 def convertNumberBase(num,base1,base2):
 	return decimalToBase(decimalFromBase(num,base1),base2)
 
-print decimalToBase(10,2)
